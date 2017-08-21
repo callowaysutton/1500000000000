@@ -48,7 +48,7 @@
           background-color: hsl(270, 40%, 40%);
         }
 
-        100% {
+         100% {
           background-color: hsl(360, 40%, 40%);
         }
       }
@@ -81,7 +81,7 @@
       function anim() {
         requestAnimationFrame(anim)
 
-        const remain = 1500000000000 - Date.now()
+        const remain = 1500000000000 - (Date.now() - 1503357336693)
 
         curTarget.innerHTML = Date.now()
         howManyTarget.innerHTML = remain
